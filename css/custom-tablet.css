@@ -1,0 +1,84 @@
+nav{
+    display: grid;
+    grid-template-rows: auto,auto,auto;
+    grid-template-columns: 30%,30%;
+}
+
+body{
+    background-image: none;
+}
+
+.mainPage{
+    display: grid;
+    grid-template-columns: none;
+    grid-template-rows: none;
+}
+
+.electricImg{
+    width: 25em;
+}
+
+/* chord page */
+.chordMain{
+    grid-template-columns: 100%;
+}
+
+.chordDescription{
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+}
+
+.aMajor{
+    grid-column: 1 / 1;
+    grid-row: 2 / 2;
+}
+
+.bMajor{
+    grid-column: 1 / 1;
+    grid-row: 3 / 3;
+}
+
+.cMajor{
+    grid-column: 1 / 1;
+    grid-row: 4 / 4;
+}
+
+.dMajor{
+    grid-column: 1 / 1;
+    grid-row: 5 / 5;
+}
+
+.eMajor{
+    grid-column: 1 / 1;
+    grid-row: 6 / 6;
+}
+
+.fMajor{
+    grid-column: 1 / 1;
+    grid-row: 7 / 7;
+}
+
+.gMajor{
+    grid-column: 1 / 1;
+    grid-row: 8 / 8;
+}
+
+.aMinor{
+    grid-column: 1 / 1;
+    grid-row: 9 / 9;
+}
+
+.bMinor{
+    grid-column: 1 / 1;
+    grid-row: 10 / 10;
+}
+
+#genreForm{
+    width: 50%;
+}
+
+
+.submitButton{
+    width: 8.9em;
+    color: black
+}

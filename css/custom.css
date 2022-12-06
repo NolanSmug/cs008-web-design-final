@@ -1,0 +1,559 @@
+:root {
+    --main-bg-color: #c6a85fb9;  
+    --text-bg-color: #d9d9d9bb;
+    --grid-item-border-color: rgba(173, 172, 171, 0.438); 
+    --heading-font: Tahoma, "Trebuchet MS", sans-serif; 
+    --paragraph-font: Georgia, serif;
+}
+
+body{
+    line-height: 1.5;
+    padding: 1em 1em;
+    margin: 0 auto;
+    max-width: 80em;
+    background-color: var(--main-bg-color);
+    background-repeat: no-repeat;
+    background-size: 175%;
+}
+
+
+
+/* styling for text and headings */
+h1{
+    font-family: var(--heading-font);
+    background-color: var(--text-bg-color);
+    text-transform: uppercase;
+    padding: 0.5em;
+    border: 0.2em solid rgb(0, 0, 0);
+}
+
+
+h2, h3{
+    font-family: var(--heading-font);
+    background-color: var(--text-bg-color);
+    padding: 0.5em;
+    margin-right: auto;
+}
+
+p {
+    font-family: var(--paragraph-font);
+    background-color: var(--text-bg-color);
+    text-indent: 2em;
+    padding: 0.5em;
+}
+
+
+/* nav styling */
+nav{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+nav a:link{
+    font-family: var(--heading-font);
+    background-color: var(--text-bg-color);
+    padding: 0.5em;
+    font-size: 1em;
+    color: black;
+    text-decoration: none;
+    border-radius: 1em;
+}
+
+nav a:hover{
+    color: rgb(255, 104, 54);
+}
+
+nav a{
+    display: inline-block;
+    width: auto;
+}
+
+a:visited { 
+    text-decoration: none; 
+    color: black; 
+}
+
+.activePage{
+    background-color: white;
+    border-radius: 1em;
+}
+
+/* footer */
+.footer{
+    color: rgba(255, 104, 54, 0.693);
+    text-decoration: none;
+}
+
+.footer:hover{
+    color: rgba(255, 104, 54, 0.693);
+}
+
+
+
+
+
+/* grid setup */
+#grid-container{
+   text-align: center;
+   background: rgb(93, 93, 93);
+   padding: 0.5em;
+}
+
+
+/* class items for each section in main page */
+.mainPage{
+    display: grid;
+    justify-content: center;
+    align-content: space-evenly;
+    grid-template-columns: 40% 60%;
+    background: rgb(136, 136, 136);
+    border: 0.5em solid rgba(255, 104, 54, 0.693);
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+.ledZeppelin{
+    padding-top: 0.5em;
+    grid-column: 1 / 2;
+    grid-row: 1 / 1;
+    border: 0.1em solid var(--grid-item-border-color);
+    margin-top: 1em;
+    margin-left: 0.3em;
+    margin-right: 0.3em;
+}
+
+.ledZeppelinImage{
+    padding-top: 0.5em;
+    grid-column: 2 / 2;
+    grid-row: 1 / 1;
+    border: 0.1em solid var(--grid-item-border-color);
+    margin-top: 1em;
+    margin-left: 0.3em;
+    margin-right: 0.3em;
+}
+
+.fooFighters{
+    padding-left: 2em;
+    padding-right: 2em; 
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    border: 0.1em solid var(--grid-item-border-color);
+    margin: 0.3em;
+}
+
+.fooFightersImage{
+    padding-left: 2em;
+    padding-right: 2em; 
+    grid-column: 2 / 2;
+    grid-row: 2 / 3;
+    border: 0.1em solid var(--grid-item-border-color);
+    margin: 0.3em;
+}
+
+.fleetwoodMac{
+    grid-column: 1 / 2;
+    grid-row: 3 / 3;
+    padding-left: 2em;
+    padding-right: 2em; 
+    border: 0.1em solid var(--grid-item-border-color);
+    margin: 0.3em;
+}
+
+.fleetwoodMacImage{
+    grid-column: 2 / 2;
+    grid-row: 3 / 3;
+    padding-left: 2em;
+    padding-right: 2em; 
+    border: 0.1em solid var(--grid-item-border-color);
+    margin: 0.3em;
+}
+
+
+/* class items for each section in detail page */
+.detailPage{
+    display: grid;
+    justify-content: center;
+    align-content: space-evenly;
+    grid-template-columns: 50% 50%;
+    background: rgb(136, 136, 136);
+    border: 0.5em solid rgba(255, 104, 54, 0.693);
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+.history{
+    padding-top: 0.5em;
+    grid-column: 1 / 4;
+    grid-row: 1 / 1;
+    margin-top: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.historyImg{
+    max-width: 50%;
+}
+
+.acousticGuitar{
+    padding-left: 2em;
+    padding-right: 2em; 
+    grid-column: 1 / 2;
+    grid-row: 2 / 4;
+    margin: 0.3em;
+}
+
+.electricGuitar{
+    grid-column: 2 / 4;
+    grid-row: 2 / 4;
+    padding-left: 2em;
+    padding-right: 2em; 
+    margin: 0.3em;
+}
+
+.electricImg{
+    width: 30em;
+}
+
+
+
+
+/* figure, image, and citing styling */
+figure {
+    border-radius: 1.5em;
+    border-color: rgb(95, 139, 213);
+    border-style: groove;
+    padding-bottom: 0.75em;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img{
+    border-radius: 1.5em;
+    max-width: 100%;
+}
+
+figcaption {
+    background-color: var(--main-bg-color);
+    border-radius: 3em;
+    padding-left: 0.5em;
+}
+
+cite{
+    font-size: xx-small;
+}
+
+cite:hover{
+    text-decoration: underline;
+}
+
+
+
+/* table styling */
+table{
+    background-color: var(--text-bg-color);
+    border-collapse: collapse; 
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+tr, th, td {
+    border: solid;
+    border-width: 0.05em;
+    padding: 0.1em
+}
+
+caption{
+    background-color: var(--text-bg-color);
+    width: auto;
+    border: solid;
+    border-width: 0.05em;
+}
+
+.tabHeadings{
+    border: solid;
+    border-width: 0.05em;
+}
+
+.odd:hover{
+    background-color: rgb(204, 255, 230);
+}
+
+.even:hover{
+    background-color: rgb(255, 255, 204);
+}
+
+
+tr:nth-child(2n+1){
+    background-color: #d1d1d1;
+}
+
+tr:nth-child(2n){
+    background-color: #a7a7a7;
+}
+
+tr:nth-child(2n+1):hover{
+    background-color: rgb(204, 255, 230);
+}
+
+tr:nth-child(2n):hover{
+    background-color: rgb(255, 204, 179);
+}
+
+th:hover{
+    background-color: rgb(255, 179, 179);
+}
+
+th{
+    background-color: #a7a7a7;
+}
+
+legend{
+    background-color: var(--text-bg-color);
+}
+
+/* form styling */
+.formMain{
+    font-family: var(--paragraph-font);
+    font-family: var(--heading-font);
+    display: grid;
+    justify-content: center;
+    align-content: space-evenly;
+    background: rgb(136, 136, 136);
+    border: 0.5em solid rgba(255, 104, 54, 0.693);
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+fieldset{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.formP{
+    text-indent: 0em;
+    width: 30em; 
+}
+
+
+/* Formatting text and margins */
+#genreForm{
+    width: 100%;
+}
+
+#txtFirstName{
+    margin-left: 2em;
+}
+
+#txtLastName{
+    margin-left: 2.2em;
+}
+
+input[type=text]{
+    width: 50%;
+    background-color: rgba(242, 170, 76, 0.767);
+}
+
+input[type=checkbox] + label{
+    cursor: pointer;
+}
+
+input[type=checkbox]{
+    appearance: none;
+}
+
+/* Styling for custom checkboxes */
+input[type=checkbox] + label::before{
+    content: "\00a0";   /* Use graphemica.com for special utf characters */  
+    display: inline-block; 
+    width: 1em;
+    line-height: 1em;
+    text-align: center;
+    font-size: 0.8em; 
+    margin-right: 1em;
+    border: 0.125em solid rgb(0, 0, 0);   
+    background-color: rgb(128, 128, 128)
+}
+
+input[type=checkbox]:checked + label::before{
+    content: "\002714";
+    background-color:rgba(242, 170, 76, 0.767); 
+}
+
+/* Styling for custom radio buttons */
+input[type=radio]{
+    appearance: none;
+}
+
+input[type=radio] + label{
+    cursor: pointer;
+}
+
+input[type=radio] + label::before{
+    content: "\00a0"; 
+    border-radius: 1em;
+    display: inline-block;
+    width: 1em;
+    line-height: 1em;
+    text-align: center;
+    font-size: 0.8em;
+    margin-right: 1em;
+    border: 0.125em solid rgb(0, 0, 0);
+    background-color:rgb(128, 128, 128);
+}
+
+input[type=radio]:checked + label::before{
+    content: "\2022";
+    background-color:rgba(242, 170, 76, 0.767);
+}
+
+/* Styling for custom submit button */
+input[type=submit]{
+    width: 10em;
+    background-color:rgba(250, 235, 215, 0.767);
+    padding: 0.3em;
+    border: none;
+    border-radius: 0.5em;
+    margin-left: -2em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input[type=submit]:hover{
+    background-color:rgba(242, 170, 76, 0.767);
+}
+
+.submitButton{
+    width: 9em;
+    border-radius: 2em;
+}
+
+/* Styling for sections in array.php */
+.chordMain{
+    font-family: var(--paragraph-font);
+    font-family: var(--heading-font);
+    display: grid;
+    grid-template-columns: auto, auto, auto;
+    justify-content: center;
+    align-content: space-evenly;
+    background: rgb(136, 136, 136);
+    border: 0.5em solid rgba(255, 104, 54, 0.693);
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+.chordDescription{
+    padding-top: 0.5em;
+    grid-column: 1 / 4;
+    grid-row: 1 / 1;
+    margin-top: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.aMajor{
+    padding-top: 1.5em;
+    grid-column: 1 / 1;
+    grid-row: 2 / 2;
+    margin-top: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+    border-radius: 1.5em;
+}
+
+.bMajor{
+    padding-top: 1.5em;
+    grid-column: 2 / 2;
+    grid-row: 2 / 2;
+    margin-top: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+    border-radius: 1.5em;
+}
+
+.cMajor{
+    padding-top: 1.5em;
+    grid-column: 3 / 3;
+    grid-row: 2 / 2;
+    margin-top: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+    border-radius: 1.5em;
+}
+
+.dMajor{
+    padding-top: 1.5em;
+    grid-column: 1 / 1;
+    grid-row: 3 / 3;
+    margin-top: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+    border-radius: 1.5em;
+}
+
+.eMajor{
+    padding-top: 1.5em;
+    grid-column: 2 / 2;
+    grid-row: 3 / 3;
+    margin-top: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+    border-radius: 1.5em;
+}
+
+.fMajor{
+    padding-top: 1.5em;
+    grid-column: 3 / 3;
+    grid-row: 3 / 3;
+    margin-top: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+    border-radius: 1.5em;
+}
+
+.gMajor{
+    padding-top: 1.5em;
+    grid-column: 1 / 1;
+    grid-row: 4 / 4;
+    margin-top: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+    border-radius: 1.5em;
+}
+
+.aMinor{
+    padding-top: 1.5em;
+    grid-column: 2 / 2;
+    grid-row: 4 / 4;
+    margin-top: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+    border-radius: 1.5em;
+    
+}
+
+.bMinor{
+    padding-top: 1.5em;
+    grid-column: 3 / 3;
+    grid-row: 4 / 4;
+    margin-top: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+    border-radius: 1.5em;
+}
+
+
+/* Styling for sql.php */
+pre{
+    background-color: var(--main-bg-color);
+}
+
+.sql{
+    background-image: none;
+    background-color: rgb(162, 162, 162);
+}
+
+.mistake{
+    background-color: rgba(236, 99, 99, 0.872);
+}

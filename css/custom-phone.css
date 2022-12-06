@@ -1,0 +1,155 @@
+nav{
+    display: grid;
+    grid-template-rows: auto,auto,auto;
+    grid-template-columns: auto;
+}
+
+body{
+    background-image: none;
+}
+
+
+
+/* main page */
+.ledZeppelin{
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+    border: none;
+}
+
+.ledZeppelinImage{
+    grid-column: 1 / 1;
+    grid-row: 2 / 2;
+    border: none;
+}
+
+.fooFighters{ 
+    grid-column: 1 / 1;
+    grid-row: 3 / 3;
+    border: none;
+}
+
+.fooFightersImage{ 
+    grid-column: 1 / 1;
+    grid-row: 4 / 4;
+    border: none;
+}
+
+.fleetwoodMac{
+    grid-column: 1 / 1;
+    grid-row: 5 / 5;
+    border: none;
+}
+
+.fleetwoodMacImage{
+    grid-column: 1 / 1;
+    grid-row: 6 / 6;
+    border: none;
+}
+
+/* detail page */
+.detailPage{
+    grid-template-columns: 100%;
+}
+
+.history{
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+}
+
+.historyImg{
+    max-width: 100%;
+}
+
+.acousticGuitar{
+    grid-column: 1 / 1;
+    grid-row: 2 / 2;
+}
+
+.electricGuitar{
+    grid-column: 1 / 1;
+    grid-row: 3 / 3;
+}
+
+.electricImg{
+    width: 20em;
+}
+
+/* chord page */
+.chordMain{
+    grid-template-columns: 100%;
+}
+
+.chordDescription{
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+}
+
+.aMajor{
+    grid-column: 1 / 1;
+    grid-row: 2 / 2;
+}
+
+.bMajor{
+    grid-column: 1 / 1;
+    grid-row: 3 / 3;
+}
+
+.cMajor{
+    grid-column: 1 / 1;
+    grid-row: 4 / 4;
+}
+
+.dMajor{
+    grid-column: 1 / 1;
+    grid-row: 5 / 5;
+}
+
+.eMajor{
+    grid-column: 1 / 1;
+    grid-row: 6 / 6;
+}
+
+.fMajor{
+    grid-column: 1 / 1;
+    grid-row: 7 / 7;
+}
+
+.gMajor{
+    grid-column: 1 / 1;
+    grid-row: 8 / 8;
+}
+
+.aMinor{
+    grid-column: 1 / 1;
+    grid-row: 9 / 9;
+}
+
+.bMinor{
+    grid-column: 1 / 1;
+    grid-row: 10 / 10;
+}
+
+/* survey page */
+#genreForm{
+    width: 100%;
+}
+
+.formP{
+    width: 90%;
+    font-size: 90%;
+
+}
+
+.submitButton{
+    width: 8.9em;
+    color: black;
+}
+
+.postArray{
+    margin-bottom: 2em;
+}
+
+footer{
+    padding-bottom: 5em;
+}
