@@ -112,6 +112,8 @@
                 <p><a href="final/images/desktop-wireframe.png">wireframe desktop</a></p>
                 <p><a href="final/images/mobile-wireframe.png">wireframe phone</a></p>
                 <p><a href="final/images/tablet-wireframe.png">wireframe tablet</a></p>
+
+                <p><a href="final/mp4/presentation.mp4">presentation video</a></p>
             </section>
             
             <section class="grader-notes">
