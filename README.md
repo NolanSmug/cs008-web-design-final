@@ -9,21 +9,21 @@ This website provides information about music, focusing on the guitar. It covers
 ## Files and Directories
 
 ### Main Files
-- `/final/index.php`: The main page of the website featuring sections on Led Zeppelin, Foo Fighters, and Fleetwood Mac.
-- `/final/detail.php`: This page provides a detailed history of the guitar, including images for comparison.
-- `/final/form.php`: Presents a form for users to input their contact information, favorite genres, and instrument preference.
-- `/final/array.php`: Displays information about different chords. Features various sections for different chord types, each with an image and an associated MP3 file for audio playback.
+- `index.php`: The main page of the website featuring sections on Led Zeppelin, Foo Fighters, and Fleetwood Mac.
+- `detail.php`: This page provides a detailed history of the guitar, including images for comparison.
+- `form.php`: Presents a form for users to input their contact information, favorite genres, and instrument preference.
+- `array.php`: Displays information about different chords. Features various sections for different chord types, each with an image and an associated MP3 file for audio playback.
 
 ### External Connections
-- `/final/connect-DB.php`: Handles the database connection for the website. Uses PHP Data Objects to connect to a MySQL database hosted at webdb.uvm.edu.
-- `final/credentials.php`: Stores the MySQL database password as plain text (not secure, just for demonstration/practice purposes).
+- `connect-DB.php`: Handles the database connection for the website. Uses PHP Data Objects to connect to a MySQL database hosted at webdb.uvm.edu.
+- `credentials.php`: Stores the MySQL database password as plain text (not secure, just for demonstration/practice purposes).
 
 ### Patterns
-- `/final/header.php`: Contains the header section for the website.
-- `/final/footer.php`: Contains the footer section with site map links and credits.
-- `/final/nav.php`: Navigation bar for easy navigation between pages.
-- `/final/sql.php`: Provides SQL code for creating and populating tables related to the website's content.
-- `/final/top.php`: Contains the header, opening HTML tags, and links to CSS files.
+- `header.php`: Contains the header section for the website.
+- `footer.php`: Contains the footer section with site map links and credits.
+- `nav.php`: Navigation bar for easy navigation between pages.
+- `sql.php`: Provides SQL code for creating and populating tables related to the website's content.
+- `top.php`: Contains the header, opening HTML tags, and links to CSS files.
 
 
 ## Usage
@@ -48,7 +48,7 @@ This website provides information about music, focusing on the guitar. It covers
 ## Contributors
 
 - Nolan Cyr
-- Matt Swaim
+- Matthiew Swaim
 
 ## License
 
