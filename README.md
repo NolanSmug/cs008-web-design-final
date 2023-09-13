@@ -8,17 +8,23 @@ This website provides information about music, focusing on the guitar. It covers
 
 ## Files and Directories
 
-- `/final/detail.php`: This page provides a detailed history of the guitar, including images for comparison.
-- `/final/footer.php`: Contains the footer section with site map links and credits.
-- `/final/form.php`: Presents a form for users to input their contact information, favorite genres, and instrument preference.
+### Main Files
 - `/final/index.php`: The main page of the website featuring sections on Led Zeppelin, Foo Fighters, and Fleetwood Mac.
-- `/final/mp3`: Directory containing MP3 audio files for different musical keys.
-- `/final/mp4`: Directory containing a presentation video in MP4 format.
+- `/final/detail.php`: This page provides a detailed history of the guitar, including images for comparison.
+- `/final/form.php`: Presents a form for users to input their contact information, favorite genres, and instrument preference.
+- `/final/array.php`: Displays information about different chords. Features various sections for different chord types, each with an image and an associated MP3 file for audio playback.
+
+### External Connections
+- `/final/connect-DB.php`: Handles the database connection for the website. Uses PHP Data Objects to connect to a MySQL database hosted at webdb.uvm.edu.
+- `final/credentials.php`: Stores the MySQL database password as plain text (not secure, just for demonstration/practice purposes).
+
+### Patterns
+- `/final/header.php`: Contains the header section for the website.
+- `/final/footer.php`: Contains the footer section with site map links and credits.
 - `/final/nav.php`: Navigation bar for easy navigation between pages.
 - `/final/sql.php`: Provides SQL code for creating and populating tables related to the website's content.
 - `/final/top.php`: Contains the header, opening HTML tags, and links to CSS files.
-- `/final/css/`: Directory for storing custom CSS files.
-- `/final/images/`: Directory for images used on the website.
+
 
 ## Usage
 
