@@ -5,7 +5,7 @@
 
 ## Description
 
-This website provides information about music, focusing on the guitar. It covers the history of the guitar, different types of guitars, and features sections on famous bands like Led Zeppelin, Foo Fighters, and Fleetwood Mac. Users can also fill out a survey to share their favorite music genres and instrument preferences.
+This website provides information about music, focusing on the guitar. It covers the history of the guitar, different types of guitars, and features sections on famous bands like Led Zeppelin, Foo Fighters, and Fleetwood Mac. Users can also fill out a survey to share their favorite music genres and instrument preferences. Please note you will recieve an email based on your responses.
 
 ## Files and Directories
 
