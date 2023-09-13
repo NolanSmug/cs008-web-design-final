@@ -50,9 +50,6 @@ This website provides information about music, focusing on the guitar. It covers
 - Nolan Cyr
 - Matthiew Swaim
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
