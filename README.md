@@ -1,7 +1,7 @@
 # cs008-web-design-final
 # Music Around the World Website
 
-![Website Screenshot](website-screenshot.png)
+![Website Screenshot](images/website-screenshot.png)
 
 ## Description
 
