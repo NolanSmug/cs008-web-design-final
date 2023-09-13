@@ -8,8 +8,10 @@ This website provides information about music, focusing on the guitar. It covers
 
 ## Files and Directories
 
-### Main Files
-- `index.php`: The main page of the website featuring sections on Led Zeppelin, Foo Fighters, and Fleetwood Mac.
+- `index.html`: Main page of the CS 008 Fall 2022 website. It provides a site map to assignments and labs.
+
+### Main Final Project Files
+- `/final/index.php`: The main page of the website featuring sections on Led Zeppelin, Foo Fighters, and Fleetwood Mac.
 - `detail.php`: This page provides a detailed history of the guitar, including images for comparison.
 - `form.php`: Presents a form for users to input their contact information, favorite genres, and instrument preference.
 - `array.php`: Displays information about different chords. Features various sections for different chord types, each with an image and an associated MP3 file for audio playback.
