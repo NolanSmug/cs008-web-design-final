@@ -28,24 +28,12 @@ This website provides information about music, focusing on the guitar. It covers
 - `top.php`: Contains the header, opening HTML tags, and links to CSS files.
 
 
-## Usage
-
-1. Clone or download the repository.
-2. Set up a local server environment (e.g., XAMPP, WAMP).
-3. Place the files in the root directory of your local server.
-4. Import the provided SQL file to set up the database.
-5. Access the website by navigating to `http://localhost/final/index.php` in your web browser.
-
 ## Requirements
 
 - PHP
 - MySQL Database
 - Web server environment (e.g., Apache)
 
-## Additional Notes
-
-- Ensure that your server environment supports PHP for proper functionality.
-- For detailed information on each section, refer to the comments within the PHP files.
 
 ## Contributors
 
