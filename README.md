@@ -38,7 +38,7 @@ This website provides information about music, focusing on the guitar. It covers
 ## Contributors
 
 - Nolan Cyr
-- Matthiew Swaim
+- Matthew Swaim
 
 
 ## Contact
